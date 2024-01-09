@@ -4,7 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../FE"
+			"path": "BE"
+		},
+		{
+			"path": "FE"
 		}
 	],
 	"settings": {}
