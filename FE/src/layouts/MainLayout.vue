@@ -12,10 +12,10 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          My CV MANAGER
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>CV v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
