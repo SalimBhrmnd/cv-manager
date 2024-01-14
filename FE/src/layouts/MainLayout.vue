@@ -51,47 +51,42 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
+    title: 'آموزشی',
+    caption: 'َAytronic',
     icon: 'school',
-    link: 'https://quasar.dev'
+    link: 'https://ay7.ir/'
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
+    title: 'گیتهاب من',
+    caption: 'github.com/SalimBahremand',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: 'https://github.com/SalimBhrmnd'
   },
   {
-    title: 'Discord Chat Channel',
+    title: 'تلگرام',
     caption: 'chat.quasar.dev',
     icon: 'chat',
     link: 'https://chat.quasar.dev'
   },
   {
-    title: 'Forum',
+    title: 'واتس اپ',
     caption: 'forum.quasar.dev',
     icon: 'record_voice_over',
     link: 'https://forum.quasar.dev'
   },
   {
-    title: 'Twitter',
+    title: 'Linkedin',
     caption: '@quasarframework',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    link: 'https://www.linkedin.com/in/salim-bahremand-3a1308243/'
   },
   {
     title: 'Facebook',
-    caption: '@QuasarFramework',
+    caption: 'فیس بوک',
     icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    link: 'https://facebook.salim.b'
   },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
+
 ]
 
 export default defineComponent({
