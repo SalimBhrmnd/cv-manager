@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('profiles', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id');
             $table->string('avatar', 300)->nullable();
             $table->string('full_name', 250)->nullable();
             $table->string('work_email', 250)->unique()->nullable();
@@ -30,5 +31,5 @@ return new class extends Migration
     {
         Schema::dropIfExists('profiles');
     }
-    relat
+
 };
