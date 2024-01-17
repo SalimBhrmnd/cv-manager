@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated class="bg-dark">
       <q-toolbar>
         <q-btn
           flat
@@ -12,10 +12,10 @@
         />
 
         <q-toolbar-title>
-          My CV MANAGER
+         CV AdminPage
         </q-toolbar-title>
 
-        <div>CV v{{ $q.version }}</div>
+        <div>CV M v0.1</div>
       </q-toolbar>
     </q-header>
 
