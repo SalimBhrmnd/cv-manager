@@ -1,8 +1,16 @@
 <template>
   <q-page class="">
-    <q-input aria-placeholder="username" label="User Name" rounded outlined class="q-mt-lg"></q-input>
-    v-model="username"
-    <q-input aria-placeholder="password" label="Password" rounded outlined class="q-mt-lg"></q-input>
+    <q-input placeholder="username"
+     label="User Name"
+     rounded outlined
+     class="q-mt-lg"
+     v-model="username"
+     ></q-input>
+    <q-input placeholder="password"
+    label="Password"
+    rounded outlined
+    class="q-mt-lg">
+  </q-input>
     <q-btn class="full-width" q-mt-md q-py-sm color="primary" rounded>Register</q-btn>
     {{ username }}
     <img
