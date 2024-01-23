@@ -58,9 +58,12 @@ export default defineComponent({
             email: username.value,
             password: password.value,
           })
-           .then((r) => { 
-            console.log(r.data);
-            });
+           .then(
+             r => {
+              console.log(r.data);
+            }
+           )
+
         } else {
           alert('password not match')
         }
