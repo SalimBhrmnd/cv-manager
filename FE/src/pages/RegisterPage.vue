@@ -52,20 +52,21 @@ export default defineComponent({
     const password = ref("");
     const confirmPassword = ref("");
     function register () {
-      if (password.value === confirmPassword.value) {
-        api.post('api/register', {
-          email:username.value,
-          password: password.value,
-        })
-        .then|(
-          r => {
-            console.log(r.data)
-
-          }
-        )
+      if (password.value && confirmPassword.value){
+        if (password.value === confirmPassword.value) {
+          api.post('api/register', {
+            email: username.value,
+            password: password.value,
+          })
+           .then((r) => { 
+            console.log(r.data);
+            });
+        } else {
+          alert('password not match')
+        }
+      }else {
+        alert('Enter Data')
       }
-
-
     }
     return {
       username,
