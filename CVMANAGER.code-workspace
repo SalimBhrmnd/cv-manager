@@ -11,6 +11,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "BE"
+		"liveServer.settings.multiRootWorkspaceName": "BE",
+		"workbench.colorTheme": "Quiet Light"
 	}
 }
