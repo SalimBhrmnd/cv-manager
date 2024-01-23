@@ -27,7 +27,9 @@
     ></q-input>
 
     <q-btn outline  class="full-width q-mt-md q-py-sm" color="primary" rounded
+    @click="register"
     >Register</q-btn>
+
 
       </div>
     </div>
@@ -58,12 +60,9 @@ export default defineComponent({
             email: username.value,
             password: password.value,
           })
-           .then(
-             r => {
+           .then((r) => {
               console.log(r.data);
-            }
-           )
-
+            });
         } else {
           alert('password not match')
         }
