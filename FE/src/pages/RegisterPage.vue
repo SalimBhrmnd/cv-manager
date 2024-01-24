@@ -62,6 +62,10 @@ export default defineComponent({
           })
            .then((r) => {
               console.log(r.data);
+              if (r.data.status) {
+              } else{
+                
+              }
             });
         } else {
           alert('password not match')
