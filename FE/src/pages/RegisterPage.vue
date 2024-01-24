@@ -67,7 +67,7 @@ export default defineComponent({
               if (r.data.status) {
                 router.push('/login')
               } else{
-                alaert ("مشکلی پیش آمده است")
+                alert ('مشکلی پیش آمده است')
               }
             });
         } else {
