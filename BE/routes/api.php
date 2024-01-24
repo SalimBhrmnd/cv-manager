@@ -25,6 +25,7 @@ Route::post('register', function(Request $request){
     $user->save();
     if ($user){
         return response()->json(['status'=>true, 'user'=>$user], 201,);
+        
     } else {
         return response()->json(['status'=>false], 200,);
     }
